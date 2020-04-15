@@ -1,0 +1,13 @@
+body {font-family: arial;
+background-color: darkgray;
+text-align: center;
+}
+
+h1, h2 {background-color: darkblue;
+color: whitesmoke;}
+
+p, nav {background-color: whitesmoke;
+text-align: center;}
+
+body, h1, h2, p, nav {padding-bottom: 25px;
+padding-top: 10px;}
