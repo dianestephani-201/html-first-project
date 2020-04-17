@@ -24,3 +24,20 @@ while(response !== 'yes' && response !== 'no') {
     alert('Thank you for your response!');
     }
 }
+
+ 
+var answer = 8
+var guess = prompt("Choose a number between 1 and 10. You have 3 guesses.")
+
+
+for(i=0; i<=1; i+=1) {
+    if(guess != answer) {
+       guess = prompt('Please try again!') 
+    }
+    if(guess == answer) {
+        alert("Congratulations! You win!");
+    break}     
+
+}
+
+console.log
