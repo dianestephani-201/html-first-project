@@ -16,8 +16,11 @@
 // prompt("Do you live in Washington state? Yes or no.")
 // console.log("I'm here!")
 
-var response = prompt("Do you live in Washington state? Yes or no.").toLowerCase();
-console.log(response) 
-if( response === 'yes' || response === 'no' ) { 
+var response
+while(response !== 'yes' && response !== 'no') {
+    response = prompt("Do you live in Washington state? Yes or no.").toLowerCase();
+    
+    if( response === 'yes' || response === 'no' ) { 
     alert('Thank you for your response!');
+    }
 }
